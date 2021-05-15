@@ -8,7 +8,10 @@ var noise = 1.5 # standard deviation of distance read noise- (make % based?)
 
 func _ready():
 	$LidarBody/Viewport.size=lidar_resolution
+
+func generate_texture():
 	
+	pass	
 
 func _process(delta):
 	pass
